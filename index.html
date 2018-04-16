@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <<title>Travelworld</title>
+</head>
+
+<body id="home" class="scrollspy">
+  <!--Navbar -->
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Travelworld</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#search">Search</a>
+            </li>
+            <li>
+              <a href="#popular">Popular Places</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-nav">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#search">Search</a>
+    </li>
+    <li>
+      <a href="#popular">Popular Places</a>
+    </li>
+    <li>
+      <a href="#gallery">Gallery</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+
+  <!-- Section: Slider -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/vacation1.jpg">
+        <!-- random image -->
+        <div class="caption center-align">
+          <h3>Take your Dream Vacation.</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Have you ever woke up from a dream wishing it was real now it can be.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/vacation2.jpg">
+        <!-- random image -->
+        <div class="caption left-align">
+          <h3>Name your Price</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">We work with all budgets.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/vacation3.jpg">
+        <!-- random image -->
+        <div class="caption right-align">
+          <h3>Group & Individual Gataways</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Vacation are best with your friends or maybe not.</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section: Search -->
+  <section id="search" class="section section-search teal darken-1 white-text center scrollspy">
+    <div class="contain">
+      <div class="row">
+        <div class="col s12">
+          <div class="h3">Search Destinations</div>
+          <div class="input-field">
+            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Aruba,Cancun, etc...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section: Icon Boxes -->
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">room</i>
+            <h4>Pick Where</h4>
+            <p>No place is too small for us.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">store</i>
+            <h4>Travel shop</h4>
+            <p>Your friends would like something too.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">airplanemode_active</i>
+            <h4>Fly Cheap</h4>
+            <p>You will feel like a millionaire.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Popular places -->
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/vacation1.jpg" alt="">
+              <span class="card-title">Cancun,Mexico</span>
+            </div>
+            <div class="card-content">
+              This can be you.
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/vacation2.jpg" alt="">
+              <span class="card-title">Jamaica</span>
+            </div>
+            <div class="card-content">
+              This can be you.
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/vacation3.jpg" alt="">
+              <span class="card-title">Aruba</span>
+            </div>
+            <div class="card-content">
+              This can be you.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: follow also make a page going to my Linken,github,resumes-->
+  <section class="section section-follow teal darken-2 white-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>Follow Travelworld</h4>
+          <p>Follow us on social media for special offers.</p>
+          <a href="https://robertbondsresume.bitballoon.com" target="_blank" class="white-text">
+          <i class="fas fa-briefcase fa-4x"></i>
+        </a>
+          <a href="https://www.linkedin.com/in/robert-bonds-84477810a/" target="_blank" class="white-text">
+          <i class="fab fa-linkedin fa-4x"></i>
+        </a>
+          <a href="https://github.com/Atari101" target="_blank" class="white-text">
+          <i class="fab fa-github-square fa-4x"></i>
+        </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Gallery -->
+  <section id="gallery" class="section section-gallery scrollspy">
+    <div class="container">
+      <h4 class="center">
+        <span class="teal-text">Photo</span>Gallery
+      </h4>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?beach" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?travel" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?nature" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?beach,travel" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?water" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?building" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?trees" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?cruise" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?beaches" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?traveling" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?bridge" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="http://source.unsplash.com/1600x900/?beach,travel,boat" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel teal white-text center">
+            <i class="material-icons">email</i>
+            <h5>Contact me for making your website.</h5>
+          </div>
+          <ul class="collection with-header">
+            <li class="collection-header">
+              <h4>Location</h4></li>
+            <li class="collection-item">Robert Bonds</li>
+            <li class="collection-item">Concord,NC</li>
+          </ul>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-3">
+            <h5>Please fill out this form.</h5>
+            <div class="input-field">
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Email">
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Phone">
+            </div>
+            <div class="input-field">
+              <textarea class="materialize-textarea" placeholder="Enter Message"></textarea>
+            </div>
+            <a href="mailto:robertlbondsjr@gmail.com?body="><input type="submit" value="Submit" class="btn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="section teal darken-2 white-text center">
+    <p class="flow-text">Travelworld 2018</p>
+  </footer>
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    //sidenav
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav, {});
+
+
+    // slider also needed to init so the pictures will show up.
+    const slider = document.querySelector('.slider');
+    M.Slider.init(slider, {
+      indicators: false,
+      height: 500,
+      transition: 500,
+      interval: 6000
+    });
+
+    //autocomplete-input
+    const ac = document.querySelector('.autocomplete');
+    M.Autocomplete.init(ac, {
+      data: {
+        "Aruba": null,
+        "Cancun Mexico": null,
+        "Hawaii": null,
+        "Florida": null,
+        "California": null,
+        "Jamaica": null,
+        "Europe": null,
+      }
+    });
+
+    //material materialboxed querySeclector only selects one has to do all
+    const mb = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(mb, {});
+
+    //scrollspy
+    const ss = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(ss, {});
+  </script>
+
+</body>
+
+</html>
